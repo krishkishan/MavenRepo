@@ -45,5 +45,12 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>internal.repo</id>
+			<name>InternalRepo</name>
+			<url>file:///opt/tomcat9</url>
+		</repository>
+	</distributionManagement>
 
 </project>
